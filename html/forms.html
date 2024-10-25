@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Formularios</title>
+		<link rel="stylesheet" href="../css/style.css" type="text/css">
+        <style type="text/css">
+            section{
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                padding: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Formularios</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="lista.html">Listas</a></li>
+                <li><a href="links.html">Enlaces</a></li>
+                <li><a href="table.html">Tablas</a></li>
+                <li><a href="images.html">Imágenes</a></li>
+                <li><a href="audio.html">Audio</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="forms.html">Formularios</a></li>
+            </ul>
+        </nav>
+    <main>
+            <section>
+              <h2>Formulario de ingreso</h2>
+			  <p>Ingrese usuario y contraseña para ingresar a la plataforma</p>
+				<form action="" method="get" name="form1" id="form1">
+				  	<label for="usuario">Usuario:</label>
+					<input name="usuario" type="text" id="usuario" maxlength="30">
+					<label for="password">Contraseña:</label>
+					<input name="password" type="password" id="password" maxlength="6">
+                  <input type="submit" name="submit" class="submit" value="Enviar">
+	          </form>
+            </section>
+			<section>
+				<h2>Formulario con datos demográficos</h2>
+				<p>Ingresar tu nombre y datos demográficos</p>
+			  		<form action="" method="get" name="form2" id="form2">
+				 		<label for="nombre">Nombre:</label>
+				  		<input type="text" name="nombre" id="nombre">
+				  		<label for="apellidos">Apellidos:</label>
+			    		<input type="text" name="apellidos" id="apellidos"><br>
+				  		<label for="edad">Edad:</label>
+				  		<input name="edad" type="number" id="edad" max="100" min="18">
+				  		<label for="select">País:</label>
+				  		<select name="select" id="select">
+					  	<option value="Argentina">Argentina</option>
+					  	<option value="Belice">Bolivia</option>
+					  	<option value="Brasil">Brasil</option>
+					  	<option value="Colombia">Colombia</option>
+					  	<option value="México">México</option>
+					  	<option value="Venezuela">Corea</option>
+					  	<option value="Estados Unidos">Estados Unimos</option>
+					  	<option value="Otro">Otro</option>
+				  		</select>
+				  		<label for="textfield"><b>Género</b></label>
+				  		<label>Femenino:</label>
+				  		<input type="radio" name="Genero" value="femenino" id="Genero_0">
+				  		<label>Masculino</label>
+				  		<input type="radio" name="Genero" value="masculino" id="Genero_1">
+				  		<label>Prefiero no decirlo</label>
+				  		<input type="radio" name="Genero" value="no_decir" id="Genero_2">
+				  		<label><b>Género de música favorito:</b></label>
+				  		<label>Pop</label>
+				  		<input type="checkbox" name="Musica" value="pop" id="Musica_0">
+				  		<label>Rock</label>
+				  		<input type="checkbox" name="Musica" value="rock" id="Musica_1"> 
+				  		<label>Banda</label>
+				  		<input type="checkbox" name="Musica" value="banda" id="Musica_2">
+				  		<label>Kpop</label>
+				  		<input type="checkbox" name="Musica" value="kpop" id="Musica_3">
+				  		<label>Jazz</label>
+				  		<input type="checkbox" name="Musica" value="jazz" id="Musica_4">
+				  		<label>Electrónica</label>
+				  		<input type="checkbox" name="Musica" value="electronica" id="Musica_5">
+				  		<input type="submit" name="submit" class="submit" value="Enviar">
+		     		 </form>
+			</section>
+			<section>
+				<h2>Genera tu cotización de diseño gráfico aquí:</h2>
+				<p>A continuación, ingresa tus datos y define el tipo de proyecto que deseas.</p>
+			  		<form action="" method="get" name="form3" id="form3">
+						<label><b>Ingresa tu usuario y contraseña: </b></label>
+						<label for="usuario">Usuario:</label>
+						<input name="usuario" type="text" id="usuario1" maxlength="30">
+						<label for="password">Contraseña:</label>
+						<input name="password" type="password" id="password1" maxlength="6">
+						<label><b>Ingresa tu nombre y datos demográficos</b></label>
+				 		<label for="nombre">Nombre:</label>
+				  		<input type="text" name="nombre" id="nombre1">
+				  		<label for="apellidos">Apellidos:</label>
+			    		<input type="text" name="apellidos" id="apellidos1"><br>
+				  		<label for="edad">Edad:</label>
+				  		<input name="edad" type="number" id="edad1" max="100" min="18">
+				  		<label for="select">Estado:</label>
+				  		<select name="select" id="select1">
+					  	<option value="Argentina">Puebla</option>
+					  	<option value="Belice">Tlaxcala</option>
+					  	<option value="Brasil">CDMX</option>
+					  	<option value="Colombia">Nuevo León</option>
+					  	<option value="México">Guanajuato</option>
+					  	<option value="Venezuela">Yucatán</option>
+					  	<option value="Estados Unidos">Guerrero</option>
+					  	<option value="Otro">Veracruz</option>
+						<option value="Edomex">Estado de México</option>
+						<option value="Otro">Otro</option>
+				  		</select>
+				  		<label for="textfield"><b>Género</b></label>
+				  		<label>Femenino:</label>
+				  		<input type="radio" name="Genero" value="femenino" id="Genero_3">
+				  		<label>Masculino</label>
+				  		<input type="radio" name="Genero" value="masculino" id="Genero_4">
+				  		<label>Prefiero no decirlo</label>
+				  		<input type="radio" name="Genero" value="no_decir" id="Genero_5">
+						<label><b>Ingresa tus datos de contacto</b></label>
+						<label>Correo electrónico</label>
+						<input type="email" name="email" id="email" maxlength="200" minlength="10">
+						<label>Teléfono</label>
+						<input type="tel" id="tel" name="tel" maxlength="10" minlength="5"/>
+						<label for="textfield"><b>Define el proyecto a cotizar:</b></label>
+				  		<label><b>Tipo de proyecto:</b></label>
+				  		<label>Maquetado web</label>
+				  		<input type="checkbox" name="tipo_proyecto" value="web" id="tipo1">
+				  		<label>Fotografía</label>
+				  		<input type="checkbox" name="tipo_proyecto" value="foto" id="tipo2"> 
+				  		<label>Marca</label>
+				  		<input type="checkbox" name="tipo_proyecto" value="marca" id="tipo3">
+				  		<label>lustración</label>
+				  		<input type="checkbox" name="tipo_proyecto" value="ilustracion" id="tipo4">
+				  		<label>Animación</label>
+				  		<input type="checkbox" name="tipo_proyecto" value="animacion" id="tipo5">
+						<label for="price">Selecciona un precio máximo: </label>
+						<input
+							   type="range"
+							   name="price"
+							   id="price"
+							   min="2000"
+							   max="50000"
+							   step="100"
+							   value="5000"/>
+						<output class="price-output" for="price"></output>
+						<script>
+							const price = document.querySelector("#price");
+							const output = document.querySelector(".price-output");
+							output.textContent = price.value;
+							price.addEventListener("input", function () {
+							output.textContent = price.value;});
+						</script>
+						<label>¿Cuál es la fecha y horario aproximado para finalizar el proyecto?</label>
+						<input type="datetime-local" name="datetime" id="datetime" />
+						<label>Escriba más especificaciones de su proyecto aquí</label>
+						<textarea name="mensaje" rows="4" cols="40">Quiero que mi proyecto sea </textarea>
+				  		<input type="submit" name="submit" class="submit" value="Enviar">
+		     		 </form>
+			</section>
+        </main>
+        <footer>
+            <h5>Hecho por Melissa Loaiza Torres
+          </h5>
+    </footer>
+    </body>
+</html>

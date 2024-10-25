@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Listas</title>
+        <style type="text/css">
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+            header, nav, main, footer{
+                width: 1000px;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 30px;
+            }
+            header, footer{
+                color: aliceblue;
+            }
+            header{
+                /*width: 1280px;*/
+                height: 180px;
+                background-color: darkblue;
+            }
+            nav{
+                height: 50px;
+                background-color: cornflowerblue;
+            }
+            nav ul{
+                list-style-type: none;
+                text-align: center;
+            }
+            nav ul li{
+                display: inline-block;
+                margin-right: 10px;
+                margin-left: 10px;
+                width: 80px;
+                background-color: #EEEEEE;
+                padding: 10px;
+                border-radius: 15px;
+            }
+            nav ul li a{
+                text-decoration: none;
+            }
+            nav ul a:link, nav ul a:visited{
+                color: #201e43;
+            }
+            nav ul a:hover{
+                color: #134B70;
+                font-weight: bolder;
+            } 
+            main{
+                height: auto;
+                background-color: azure;
+            }
+            section{
+                width: 600px;
+                height: 190px;
+                background-color: steelblue;
+                margin-bottom: 20px;
+                margin-right: auto;
+                margin-left: auto;
+                padding: 40px;
+                color: azure;
+            }
+            section ol, section ul{
+                padding-left: 20px;
+            }
+			
+			#lugares{
+				height: auto;
+				margin-bottom: 0;
+			}
+            footer{
+                height: 100px;
+                background-color: darkblue;
+            }
+            h1{
+                font-size: 50px;
+            }
+            h2{
+                padding-bottom: 20px;
+            }
+            h5{
+                font-size: 14px;
+            }
+            h1, h5{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Listas</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="lista.html">Listas</a></li>
+                <li><a href="links.html">Enlaces</a></li>
+                <li><a href="table.html">Tablas</a></li>
+                <li><a href="images.html">Imágenes</a></li>
+                <li><a href="audio.html">Audio</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="forms.html">Formularios</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Mis colores favoritos son:</h2>
+                <ol>
+                    <li>Naranja <i>(el del atardecer)</i></li>
+                    <li>Amarillo <i>(ese que tira a naranja)</i></li>
+                    <li>Azul <i>(cualquiera, pero más el turquesa)</i></li>
+					<li>Morado <i>(lavanda)</i></li>
+                    <li>Rosa <i>(uno romántico, que se acerque al rojo)</i></li>
+					<li>Negro <i>(por quecombina con todo)</i></li>
+                </ol><br>
+				<h4><i>(Lista ordenada)</i></h4>
+            </section>
+            <section>
+            <h2>¿Cuáles son mis comidas favoritas?</h2>
+                <ul>
+                    <li>Me encanta la pizza</li>
+                    <li>Adoro cualquier tipo de pasta (sobre todo la <b>lasagna</b>)</li>
+                    <li>Disfruto mucho comer milanesas.</li>
+                    <li>Soy muy fan de la comida china.</li>
+                    <li>Nunca rechazo un plato de pozole verde.</li>
+					<li>La comida mexicana callejera es mi perdición: Tacos, gorditas, chalupas o tamales.</li>
+                </ul><br>
+				<h4><i>(Lista no ordenada)</i></h4>
+            </section>
+            <section id="lugares">
+            <h2>Lugares que me gustaría visitar:</h2>
+            <ol>
+                    <li><b>En mi propio país, México:</b>
+                        <ul>
+                            <li><i>En Yucatán</i>
+                                <ul>
+                                    <li>Playas de Mérida</li>
+                                    <li>Chichen Itzá</li>
+                                    <li>Cenote Ik Kil</li>
+                                </ul>
+                            </li>
+                            <li><i>En Puebla</i>
+                                <ul>
+                                    <li>Chignahuapan</li>
+                                    <li>Zacatlán</li>
+                                    <li>Cholula</li>
+                                </ul>
+                            </li>
+                            <li><i>En Guerrero</i>
+                                <ul>
+                                    <li>La Quebrada</li>
+                                    <li>Punta Diamante</li>
+                                    <li>Acapulco</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><b>Tengo muchas ganas de turistear en Corea del Sur:</b>
+                    <ul>    
+                        <li><i>En Jeju</i>
+                            <ul>
+                                <li>Playas de Hamdeok</li>
+                                <li>Cono volcánico Seongsan</li>
+                                <li>Parque Nacional de Hallasan</li>
+                            </ul>
+                        </li>
+                        <li><i>En Seúl</i>
+                            <ul>
+                                 <li>Cheonggyecheon</li>
+                                <li>Torre de Seul</li>
+                                <li>Edificio de Hybe</li>
+                                </ul>
+                        </li>
+                        <li><i>En Busan</i>
+                             <ul>
+                                <li>Playa Haeundae</li>
+                                 <li>Haedong Yonggungsa</li>
+                                 <li>Templo Beomeosa</li>
+                            </ul>
+                        </li>
+                    </ul></li>
+                    <li><b>Japón es un país cuanto menos interesante:</b>
+                        <ul>
+                            <li><i>Tokio</i>
+                                <ul>
+                                    <li>Senso-ji</li>
+                                    <li>Torre de Tokio</li>
+                                    <li>Santuario Meiji</li>
+                                </ul>
+                            </li>
+                            <li><i>Kioto</i>
+                                <ul>
+                                    <li>Fushimi Inari-taisha</li>
+                                    <li>Pabellón Dorado</li>
+                                    <li>Kiyomizu-dera</li>
+                                </ul>
+                            </li>
+                            <li><i>Shibuya</i>
+                                <ul>
+                                    <li>Parque Yoyogi</li>
+                                    <li>Estatua de Hachiko</li>
+                                    <li>Museo de Arte Yamatane</li>
+                                </ul>
+                            </li>
+                        </ul>
+				</li>
+				</ol><br>
+				<h4><i>(Lista mixta)</i></h4>
+            </section>
+        </main>
+        <footer>
+            <br><h5>Elaborado por Melissa Loaiza Torres</h5>
+        </footer>
+    </body>
+</html>
