@@ -1,0 +1,101 @@
+section{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+img{
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#flotante1{
+    float: right;
+    height: 270px;
+    width: auto;
+    padding-left: 20px;
+	margin-bottom: 10px;
+}
+
+#flotante2{
+    float: left;
+    height: 250px;
+    width: auto;
+    padding-top: 15px;
+    padding-right: 20px;
+	margin-bottom: 7px;
+}
+
+#icono{
+    display: block;
+    margin-right: 0;
+    width: 32px;
+    height: auto;
+}
+
+#filtro_img img{
+    display: inline-block;
+    width: 30%;
+    height: auto;
+    margin: 10px;
+}
+
+#filtro_img{
+    text-align: center;
+}
+
+#f1{
+    filter: brightness(200%);
+}
+
+#f2{
+    filter: contrast(200%);
+}
+
+#f3{
+    filter: grayscale(100%);
+}
+
+#f4{
+    filter: sepia(100%);
+}
+
+#f5{
+    filter: saturate(200%);
+}
+
+#f6{
+    filter: opacity(0.3);
+}
+
+#f7{
+    filter: invert(100%);
+}
+
+#f8{
+    filter: blur(7px);
+}
+
+#f9{
+    filter: drop-shadow(8px 8px 10px blue);
+}
+
+#f10{
+    filter: contrast(150%) drop-shadow(20px 20px 20px red);
+}
+
+#f11{
+    filter: invert(100%) blur(2px);
+}
+
+#f12{
+    filter: opacity(0.5) sepia(100%) drop-shadow(8px 8px 10px blue);
+}
+
+
